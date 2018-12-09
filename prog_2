@@ -43,7 +43,7 @@ public class saveacc
 	public static void main(String[] args)
 	{
 		SavingsAccount jimmysSavings = new SavingsAccount(1000, 0.10);
-		jimmysSavings.withdraw(1550);
+		jimmysSavings.withdraw(500);
 		jimmysSavings.deposit(400);
 		jimmysSavings.addInterest();
 		System.out.println(jimmysSavings.getBalance());
