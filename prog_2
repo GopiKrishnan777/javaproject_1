@@ -44,7 +44,7 @@ public class saveacc
 	{
 		SavingsAccount jimmysSavings = new SavingsAccount(1000, 0.10);
 		jimmysSavings.withdraw(1500);
-		jimmysSavings.deposit(400);
+		jimmysSavings.deposit(1400);
 		jimmysSavings.addInterest();
 		System.out.println(jimmysSavings.getBalance());
 		System.out.println("Expected: 1265.0");
